@@ -34,3 +34,22 @@ npm run dev
 Then open the local address shown in the terminal. Opening `index.html` directly won't work, because the project uses module imports.
 
 
+
+
+# Lab 1 - Cube and Sphere
+
+A first Three.js scene that shows the basic building blocks: scene, camera, renderer, meshes, lights, and controls.
+
+## Features
+- Orange cube (BoxGeometry) that rotates slowly on the X and Y axes
+- Low-poly sphere (SphereGeometry with 5 x 5 segments) placed behind the cube
+- MeshStandardMaterial with an AmbientLight and a DirectionalLight
+- OrbitControls to rotate, zoom, and pan the camera with the mouse
+- Resize handler that keeps the scene correct when the window changes size
+
+## How to run
+
+    npm install
+    npm run dev
+
+Then open the localhost link that Vite prints.
