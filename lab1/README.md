@@ -53,3 +53,5 @@ A first Three.js scene that shows the basic building blocks: scene, camera, rend
     npm run dev
 
 Then open the localhost link that Vite prints.
+
+
